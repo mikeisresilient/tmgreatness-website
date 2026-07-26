@@ -5,16 +5,21 @@ import Lightbox from "./Lightbox";
 
 const PortfolioGallery = () => {
     const [selectedIndex, setSelectedIndex] = useState(null);
+    const [direction, setDirection] = useState(0);
 
     const closeLightbox = () => setSelectedIndex(null);
 
     const showPrevious = () => {
+        setDirection(-1);
+
         setSelectedIndex((prev) =>
             prev === 0 ? portfolio.length - 1 : prev - 1
         );
     };
 
     const showNext = () => {
+        setDirection(1);
+
         setSelectedIndex((prev) =>
             prev === portfolio.length - 1 ? 0 : prev + 1
         );
@@ -92,6 +97,7 @@ const PortfolioGallery = () => {
                 portfolio={portfolio}
                 selectedIndex={selectedIndex}
                 setSelectedIndex={setSelectedIndex}
+                direction={direction}
                 onClose={closeLightbox}
                 onPrevious={showPrevious}
                 onNext={showNext}

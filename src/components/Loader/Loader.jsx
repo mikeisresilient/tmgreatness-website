@@ -31,7 +31,19 @@ const Loader = ({ isLoading }) => {
                 ease: "easeOut",
               }}
               style={{ fontFamily: "Bebas Neue" }}
-              className="text-6xl tracking-[0.25em] text-white md:text-8xl"
+              className="
+                px-4
+                text-center
+                text-4xl
+                tracking-[0.12em]
+                text-white
+                sm:text-5xl
+                sm:tracking-[0.18em]
+                md:text-7xl
+                md:tracking-[0.22em]
+                lg:text-8xl
+                lg:tracking-[0.25em]
+              "
             >
               TMGREATNESS
             </motion.h1>
@@ -49,12 +61,24 @@ const Loader = ({ isLoading }) => {
                 delay: 0.45,
                 duration: 0.6,
               }}
-              className="mt-4 text-sm uppercase tracking-[0.5em] text-zinc-400"
+              className="
+                mt-4
+                px-4
+                text-center
+                text-[10px]
+                uppercase
+                tracking-[0.28em]
+                text-zinc-400
+                sm:text-xs
+                sm:tracking-[0.4em]
+                md:text-sm
+                md:tracking-[0.5em]
+              "
             >
               Crafting Musical Excellence
             </motion.p>
 
-            <div className="mx-auto mt-12 h-[3px] w-72 overflow-hidden rounded-full bg-white/10">
+            <div className="mx-auto mt-10 h-[3px] w-56 overflow-hidden rounded-full bg-white/10 sm:w-64 md:mt-12 md:w-72">
               <motion.div
                 initial={{ width: 0 }}
                 animate={{ width: "100%" }}
