@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import featured from "../../assets/performances/featured.jpg";
+import featured from "../../assets/performances/featured.webp";
 import PortfolioGallery from "./PortfolioGallery";
 
 const Portfolio = () => {

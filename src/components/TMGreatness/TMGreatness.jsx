@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import performance from "../../assets/performances/performance5.jpg";
+import performance from "../../assets/performances/performance5.webp";
 import {
   FaTheaterMasks,
   FaMusic,

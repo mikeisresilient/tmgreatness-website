@@ -208,7 +208,7 @@ const Hero = () => {
               transition={{
                 delay: 1,
               }}
-              className="absolute -bottom-3 left-1/2 hidden -translate-x-1/2 rounded-3xl border border-white/10 bg-black/70 px-6 py-5 backdrop-blur-md md:block lg:left-0 lg:translate-x-0"
+              className="absolute -bottom-22 left-1/2 z-30 hidden -translate-x-1/2 rounded-3xl border border-white/10 bg-black/70 px-6 py-5 backdrop-blur-md md:block lg:left-0 lg:translate-x-0"
             >
               <h2
                 style={{ fontFamily: "Bebas Neue" }}
