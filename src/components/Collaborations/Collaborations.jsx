@@ -17,7 +17,7 @@ const artists = [
     "Asake",
     "Rema",
     "Olamide",
-    "Young Jonn",
+    "Young John",
     "Davido",
     "Burna Boy",
     "Ayra Starr",
@@ -25,6 +25,7 @@ const artists = [
     "Seyi Vibez",
     "Blaqbonez",
     "Yemi Alade",
+    "Wizkid"
 ];
 
 const labels = [
