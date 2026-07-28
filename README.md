@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./screenshot/tmgreatness-website.vercel.app_.png" alt="TMGreatness Website Banner" width="100%" />
-</p>
-
 <h1 align="center">TMGreatness Website</h1>
 
 <p align="center">
@@ -16,6 +12,10 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge" alt="Framer Motion" />
+</p>
+
+<p align="center">
+  <img src="./screenshot/tmgreatness-website.vercel.app_.png" alt="TMGreatness Website Banner" width="100%" />
 </p>
 
 ---
